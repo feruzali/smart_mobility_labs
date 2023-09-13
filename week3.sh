@@ -1,11 +1,18 @@
+#!/bin/bash
+
+# Update packages
 sudo apt update
 sudo apt upgrade
+
+# Check the language settings
 locale 
 sudo apt install locales
 sudo locale-gen en_US en_US.UTF-8
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 export LANG=en_US.UTF-8
 locale  
+
+# Install ROS2 Humble packages
 sudo apt install software-properties-common
 sudo add-apt-repository universe
 sudo apt update && sudo apt install curl -y
