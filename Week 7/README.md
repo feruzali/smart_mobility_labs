@@ -4,7 +4,7 @@
 
 **Introduction:**
 
-The Robot Navigation Towards Goal using ROS ActionLib is a system designed for enabling robots to navigate through their environment autonomously to reach a specified goal. The communication between the client and server is facilitated through the ROS Action Protocol, implemented using ROS Actionlib. This system defines three fundamental actions: goal, feedback, and result, establishing a standardized interface for communication.
+The Robot Navigation Towards Goal using ROS ActionLib is a system designed to enable robots to navigate through their environment autonomously to reach a specified goal. The communication between the client and server is facilitated through the ROS Action Protocol, implemented using ROS Actionlib. This system defines three fundamental actions: goal, feedback, and result, establishing a standardized interface for communication.
 
 **Python Files Description:**
 
@@ -53,3 +53,20 @@ This refined diagram provides a more detailed sequence of interactions:
 6. If the threshold is reached, the Server stops navigation and returns the result and navigation time to the client.
 
 This breakdown gives a clearer understanding of the steps involved in the communication flow between the Action Client and Action Server during the robot navigation process.
+
+
+**Output Results:**
+
+- **Current Position Request:**
+
+![publisher](https://github.com/feruzali/smart_mobility_labs/assets/50808895/c19b3317-e1a8-4dd9-a7f6-5f1f07008953)
+
+- **Feedback during Navigation:**
+
+![client](https://github.com/feruzali/smart_mobility_labs/assets/50808895/c2ae1781-7959-4352-90ab-d63cb1271eef)
+
+- **Final Result and Navigation Time:**
+
+![server](https://github.com/feruzali/smart_mobility_labs/assets/50808895/c3032d2a-380a-4b5b-8809-409a68f81fba)
+
+
