@@ -47,10 +47,10 @@ The use of Git for version control and proper documentation ensured a functional
 
 - **Client:**
 
-![image](https://github.com/feruzali/smart_mobility_labs/assets/50808895/a2ab0a7a-ae5c-446e-8842-be0f78d1a3a7)
+![client](https://github.com/feruzali/smart_mobility_labs/assets/50808895/66567daf-6689-4ec2-bf12-f252be176de7)
 
 
 - **Server:**
 
-![image](https://github.com/feruzali/smart_mobility_labs/assets/50808895/fcb5904e-1b2a-43c4-ae54-364f2bee25b5)
+![server](https://github.com/feruzali/smart_mobility_labs/assets/50808895/c937a4ad-d791-4cfb-af09-09d57c6058b0)
 
